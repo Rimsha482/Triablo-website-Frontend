@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f7f8">
+  <meta name="description" content="Explore Triablo's responsive eCommerce landing page demos, from product sliders to immersive backgrounds.">
+  <title>Triablo — eCommerce experiences, reimagined</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <nav class="navbar container navbar-expand-lg" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="Triablo home">
+        <img src="images/triablo-logo.png" alt="" width="42" height="42">
+        <span>triablo<span class="brand-period">.</span></span>
+      </a>
+      <div class="nav-actions ms-auto">
+        <a class="nav-link d-none d-sm-inline-flex" href="#showcase">Explore demos</a>
+        <button class="icon-button theme-toggle" type="button" aria-label="Switch to dark theme" title="Toggle theme">
+          <span aria-hidden="true">◐</span>
+        </button>
+        <a class="button button-dark nav-cta" href="#showcase">View showcase <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> CREATIVE ECOMMERCE, MADE SIMPLE</p>
+        <h1>Make your next<br> <span>big impression.</span></h1>
+        <p class="hero-description">A collection of polished storefront experiences. Explore the demos, find your style, and make it yours.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#showcase">Explore all demos <span aria-hidden="true">↓</span></a>
+          <span class="hero-note">7 ways to tell your story</span>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Triablo storefront preview">
+        <div class="art-orbit orbit-one"></div>
+        <div class="art-orbit orbit-two"></div>
+        <div class="art-card">
+          <div class="art-topline"><span>NEW SEASON / 2025</span><span>01 — 07</span></div>
+          <div class="art-product">
+            <img src="images/whyus-CD1.jpg" alt="Featured product display">
+            <span class="art-sticker">DESIGNED<br>TO STAND OUT</span>
+          </div>
+          <div class="art-caption"><strong>Beautiful by design.</strong><span>Built for your next big idea.</span></div>
+        </div>
+        <span class="art-spark spark-one" aria-hidden="true">✳</span>
+        <span class="art-spark spark-two" aria-hidden="true">✳</span>
+      </div>
+      <a class="scroll-cue" href="#showcase"><span aria-hidden="true">↓</span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="showcase-section" id="showcase">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">THE SHOWCASE</p>
+            <h2>Find your <span>starting point.</span></h2>
+          </div>
+          <p class="section-description">Each demo is a different way to bring your products and personality to life.</p>
+        </div>
+
+        <div class="showcase-toolbar">
+          <div class="filter-list" role="group" aria-label="Filter demos by category">
+            <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All demos <span>07</span></button>
+            <button class="filter-button" type="button" data-filter="motion" aria-pressed="false">Motion</button>
+            <button class="filter-button" type="button" data-filter="visual" aria-pressed="false">Visual stories</button>
+            <button class="filter-button" type="button" data-filter="launch" aria-pressed="false">Launch</button>
+            <button class="filter-button favorites-filter" type="button" data-filter="favorites" aria-pressed="false">Saved <span class="saved-count">0</span></button>
+          </div>
+          <label class="search-box">
+            <span class="visually-hidden">Search demos</span>
+            <span aria-hidden="true">⌕</span>
+            <input id="demo-search" type="search" placeholder="Find a demo..." autocomplete="off">
+            <kbd>/</kbd>
+          </label>
+        </div>
+
+        <div class="row g-4 demo-grid" id="demo-grid">
+          <article class="col-12 col-sm-6 col-lg-4 demo-item" data-category="launch" data-search="countdown launch coming soon timer product preorder">
+            <div class="demo-card">
+              <a class="demo-link" href="colors.html?feature=countdown.html" aria-label="Explore Countdown demo">
+                <div class="demo-image"><img src="countdown.jpg" alt="Countdown landing page preview" loading="lazy"><span class="demo-number">01</span><span class="demo-arrow" aria-hidden="true">↗</span></div>
+                <div class="demo-info"><div><span class="demo-category">LAUNCH</span><h3>Countdown</h3></div><span class="demo-link-text">Explore demo <span aria-hidden="true">→</span></span></div>
+              </a>
+              <button class="save-button" type="button" aria-label="Save Countdown demo" aria-pressed="false">♡</button>
+            </div>
+          </article>
+          <article class="col-12 col-sm-6 col-lg-4 demo-item" data-category="motion" data-search="slider product carousel motion">
+            <div class="demo-card">
+              <a class="demo-link" href="colors.html?feature=images/slider.html" aria-label="Explore Slider demo">
+                <div class="demo-image"><img src="images/slider.jpg" alt="Product slider landing page preview" loading="lazy"><span class="demo-number">02</span><span class="demo-arrow" aria-hidden="true">↗</span></div>
+                <div class="demo-info"><div><span class="demo-category">MOTION</span><h3>Product slider</h3></div><span class="demo-link-text">Explore demo <span aria-hidden="true">→</span></span></div>
+              </a>
+              <button class="save-button" type="button" aria-label="Save Product slider demo" aria-pressed="false">♡</button>
+            </div>
+          </article>
+          <article class="col-12 col-sm-6 col-lg-4 demo-item" data-category="motion" data-search="slider parallax depth motion product">
+            <div class="demo-card">
+              <a class="demo-link" href="colors.html?feature=images/slider%20parallax.html" aria-label="Explore Slider parallax demo">
+                <div class="demo-image"><img src="images/slider parallax.jpg" alt="Parallax slider landing page preview" loading="lazy"><span class="demo-number">03</span><span class="demo-arrow" aria-hidden="true">↗</span></div>
+                <div class="demo-info"><div><span class="demo-category">MOTION</span><h3>Slider parallax</h3></div><span class="demo-link-text">Explore demo <span aria-hidden="true">→</span></span></div>
+              </a>
+              <button class="save-button" type="button" aria-label="Save Slider parallax demo" aria-pressed="false">♡</button>
+            </div>
+          </article>
+          <article class="col-12 col-sm-6 col-lg-4 demo-item" data-category="visual" data-search="video film brand storytelling">
+            <div class="demo-card">
+              <a class="demo-link" href="colors.html?feature=images/vedio.html%23video" aria-label="Explore Video demo">
+                <div class="demo-image"><img src="images/vedio.jpg" alt="Video landing page preview" loading="lazy"><span class="demo-number">04</span><span class="demo-arrow" aria-hidden="true">↗</span></div>
+                <div class="demo-info"><div><span class="demo-category">VISUAL STORY</span><h3>Video</h3></div><span class="demo-link-text">Explore demo <span aria-hidden="true">→</span></span></div>
+              </a>
+              <button class="save-button" type="button" aria-label="Save Video demo" aria-pressed="false">♡</button>
+            </div>
+          </article>
+          <article class="col-12 col-sm-6 col-lg-4 demo-item" data-category="motion" data-search="video parallax film motion immersive">
+            <div class="demo-card">
+              <a class="demo-link" href="colors.html?feature=images/video-parallax.html" aria-label="Explore Video parallax demo">
+                <div class="demo-image"><img src="images/vedio paralax.jpg" alt="Video parallax landing page preview" loading="lazy"><span class="demo-number">05</span><span class="demo-arrow" aria-hidden="true">↗</span></div>
+                <div class="demo-info"><div><span class="demo-category">MOTION</span><h3>Video parallax</h3></div><span class="demo-link-text">Explore demo <span aria-hidden="true">→</span></span></div>
+              </a>
+              <button class="save-button" type="button" aria-label="Save Video parallax demo" aria-pressed="false">♡</button>
+            </div>
+          </article>
+          <article class="col-12 col-sm-6 col-lg-4 demo-item" data-category="visual" data-search="background image product photography visual">
+            <div class="demo-card">
+              <a class="demo-link" href="colors.html?feature=background%20image.html" aria-label="Explore Background image demo">
+                <div class="demo-image"><img src="images/background image.jpg" alt="Background image landing page preview" loading="lazy"><span class="demo-number">06</span><span class="demo-arrow" aria-hidden="true">↗</span></div>
+                <div class="demo-info"><div><span class="demo-category">VISUAL STORY</span><h3>Background image</h3></div><span class="demo-link-text">Explore demo <span aria-hidden="true">→</span></span></div>
+              </a>
+              <button class="save-button" type="button" aria-label="Save Background image demo" aria-pressed="false">♡</button>
+            </div>
+          </article>
+          <article class="col-12 col-sm-6 col-lg-4 demo-item" data-category="visual" data-search="background image parallax depth immersive visual">
+            <div class="demo-card">
+              <a class="demo-link" href="colors.html?feature=background%20image%20parallax.html" aria-label="Explore Background parallax demo">
+                <div class="demo-image"><img src="images/background image parallel .jpg" alt="Background parallax landing page preview" loading="lazy"><span class="demo-number">07</span><span class="demo-arrow" aria-hidden="true">↗</span></div>
+                <div class="demo-info"><div><span class="demo-category">VISUAL STORY</span><h3>Background parallax</h3></div><span class="demo-link-text">Explore demo <span aria-hidden="true">→</span></span></div>
+              </a>
+              <button class="save-button" type="button" aria-label="Save Background parallax demo" aria-pressed="false">♡</button>
+            </div>
+          </article>
+        </div>
+        <p class="empty-state" id="empty-state" hidden>No demos match that search. Try another term or category.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><a class="brand" href="index.html"><img src="images/triablo-logo.png" alt="" width="32" height="32"><span>triablo<span class="brand-period">.</span></span></a><p>Thoughtful storefronts. Memorable first impressions.</p><a href="#main-content">Back to top ↑</a></div>
+  </footer>
+  <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+  <script src="app.js" defer></script>
+</body>
+</html>
